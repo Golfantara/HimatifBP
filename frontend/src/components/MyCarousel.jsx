@@ -56,7 +56,7 @@ const Berita = () => {
                   <div>
                     <Link
                       to="../Society"
-                      className="flex cursor-pointer flex-col w-[261px] h-[378px] font-semibold bg-white rounded-[11px]"
+                      className="flex cursor-pointer flex-col w-[261px] h-[378px] font-semibold bg-white rounded-[11px] hover:bg-slate-300"
                     >
                       <div className="w-auto h-[220px] rounded-t-[9px] text-center">
                         <img
@@ -65,7 +65,7 @@ const Berita = () => {
                           className="rounded-t-md h-full"
                         />
                       </div>
-                      <div className="flex flex-col justify-evenly ml-[20px] mt-[2px] h-[126px] w-[200px] ">
+                      <div className="flex flex-col justify-evenly ml-[20px] mt-[2px] h-[126px] w-[200px]">
                         <h1 className="text-[25px]">Figma</h1>
                         <div className="flex items-center gap-2 animate-pulse">
                           <div className="bg-red-500 w-[10px] rounded-full h-[10px]"></div>
@@ -84,7 +84,7 @@ const Berita = () => {
                   <div>
                     <Link
                       to="../Bhs"
-                      className="flex flex-col w-[261px] h-[378px] font-semibold bg-white rounded-[11px]"
+                      className="flex flex-col w-[261px] h-[378px] font-semibold bg-white rounded-[11px] hover:bg-slate-300"
                     >
                       <div className="w-auto h-[220px] rounded-t-[9px] text-center">
                         <img
@@ -101,6 +101,10 @@ const Berita = () => {
                             7 hari yang lalu
                           </span>
                         </div>
+                        <p className="text-[13px]">
+                          Figma menjadi website desain terbaik bagi para
+                          desainer web dan mobile2
+                        </p>
                       </div>
                     </Link>
                   </div>
@@ -109,7 +113,7 @@ const Berita = () => {
                   <div>
                     <Link
                       to="../Duel"
-                      className="flex flex-col w-[261px] h-[378px] font-semibold bg-white rounded-[11px]"
+                      className="flex flex-col w-[261px] h-[378px] font-semibold bg-white rounded-[11px] hover:bg-slate-300"
                     >
                       <div className="w-auto h-[220px] rounded-t-[9px] text-center">
                         <img
@@ -137,7 +141,7 @@ const Berita = () => {
                   <div>
                     <Link
                       to="../OpenAi"
-                      className="flex flex-col w-[261px] h-[378px] font-semibold bg-white rounded-[11px]"
+                      className="flex flex-col w-[261px] h-[378px] font-semibold bg-white rounded-[11px] hover:bg-slate-300"
                     >
                       <div className="w-auto h-[200px] bg-black rounded-t-[9px] text-center"></div>
                       <div className="flex flex-col justify-evenly ml-[20px] mt-[2px] h-[126px] w-[200px] ">
